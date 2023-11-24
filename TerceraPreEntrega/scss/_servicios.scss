@@ -1,0 +1,137 @@
+/* servicios */
+
+.servicos {
+    text-align: center;
+    margin: 10vh;
+    border-bottom: 1px solid black;
+  }
+  
+  .servicios {
+    h3 {
+      color: #c5750d;
+      text-transform: uppercase;
+      font-size: 3rem;
+    }
+  
+    p {
+      font-size: 4rem;
+      color: #212121;
+      padding: 10px;
+    }
+  }
+  
+  .contenedorservicios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .servicios {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+  
+    img {
+      max-width: 100%;
+    }
+  
+    p {
+      margin: 10px 0;
+    }
+  
+    button {
+      background-color: #c5750d;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 10px;
+  
+      &:hover {
+        background-color: #c5750d;
+      }
+    }
+  }
+  
+  /* servicios */
+  
+  .servicos {
+    text-align: center;
+    margin: 10vh;
+    border-bottom: 1px solid black;
+  }
+  
+  .servicios {
+    h3 {
+      color: #c5750d;
+      text-transform: uppercase;
+      font-size: 3rem;
+    }
+  
+    p {
+      font-size: 4rem;
+      color: #212121;
+      padding: 10px;
+    }
+  }
+  
+  .contenedorservicios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .servicios {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+      
+    img {
+      max-width: 100%;
+    }
+  
+    p {
+      margin: 10px 0;
+    }
+  
+    button {
+      background-color: #c5750d;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 10px;
+  
+      &:hover {
+        background-color: #c5750d;
+      }
+    }
+  }

@@ -1,0 +1,105 @@
+/* Lo hacemos responsive:  */
+
+/*Vista tablet*/
+
+@media (max-width:1023px) {
+    /*Header*/
+
+    .encabezado {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .encabezado .boton {
+        display: none;
+    }
+
+    /*Banner*/
+
+    .bannerContenido p {
+        font-size: 1rem;
+    }
+
+    /*servicios*/
+
+    .servicios {
+        margin: 5vh;
+        font-size: 2rem;
+    }
+
+    .servicios h3,
+    .servicios p {
+        font-size: inherit;
+    }
+
+    .contenedorservicios {
+        grid-template-columns: 1fr 1fr;
+    }
+
+  /*consejos*/
+
+    /*Footer*/
+
+    .footerContenido {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/*Ajustes específicos para la vista móvil*/
+
+@media (max-width:768px) {
+    /*Destinos */
+
+    .contenedorservicios {
+        grid-template-columns: 1fr;
+    }
+}
+form {
+    margin-top: 20px;
+
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+}
+input[type="text"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 16px;
+    margin-bottom: 10px;
+   
+}
+.btnformulario {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+   
+}
+h2{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+
+}
+h3{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    
+}
+.logo3 {
+    width: 100px;
+}
+

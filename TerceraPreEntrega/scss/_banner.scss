@@ -1,0 +1,57 @@
+
+/* Banner */
+
+.banner {
+    background-image: url("../img/libroz.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: calc(100vh - 100px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.2);
+  
+      /* Ajusta el valor alpha (0.5) para controlar la opacidad */
+      z-index: 0;
+    }
+  }
+  
+  .bannerContenido {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  
+    h2 {
+      font-size: 4rem;
+      font-weight: bold;
+      color: #FAFAFA;
+      margin-bottom: 10px;
+    }
+  
+    p {
+      color: #FAFAFA;
+      font-size: 4rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-family: 'Rubik Mono One', sans-serif;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    .boton {
+      margin-top: 10px;
+    }
+  }
+  
